@@ -13,7 +13,7 @@ import {
 import { ApiOperation, ApiParam, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CharactersService } from './characters.service.ts';
 import { Character } from './entities/character.entity.ts';
-import { CreateCharacterDto } from './dto/crate_character.dto.ts';
+import { CreateCharacterDto } from './dto/create_character.dto.ts';
 import { UpdateCharacterDto } from './dto/update_character.dto.ts';
 import { UpdateCharacterStatusDto } from './dto/update_character_status.dto.ts';
 import { FindCharactersDto} from './dto/find_characters.dto.ts';

@@ -9,7 +9,7 @@ import { FindOptionsWhere, Not, QueryFailedError, Repository } from 'typeorm';
 import { CharacterStatus } from './character-status.enum.ts';
 import { Character } from './entities/character.entity.ts';
 import { Team } from '../teams/entities/team.entity.ts';
-import { CreateCharacterDto } from './dto/crate_character.dto.ts';
+import { CreateCharacterDto } from './dto/create_character.dto.ts';
 import { UpdateCharacterDto } from './dto/update_character.dto.ts';
 import { UpdateCharacterStatusDto } from './dto/update_character_status.dto.ts';
 import { FindCharactersDto } from './dto/find_characters.dto.ts';
