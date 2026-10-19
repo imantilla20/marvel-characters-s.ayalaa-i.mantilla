@@ -31,3 +31,32 @@ docker compose down        # apagar (los datos se conservan)
 docker compose down -v     # apagar y BORRAR datos (al subir de nuevo se recargan los iniciales)
 docker exec -it marvel_db psql -U marvel -d marvel_db   # consola SQL
 ```
+---
+
+# API NestJS
+
+La API está en la carpeta `project/`, organizada en los módulos `characters` y `teams`. Esta API no modificada nada de la BASE de datos.
+
+## Requisitos adicionales
+- Node.js 20 o superior
+
+## Cómo correr la API
+
+1. Levantar la base de datos desde la raíz con las instrucciones anteriores
+```
+2. Instalar dependencias y arrancar la API:
+```bash
+   cd project
+   npm install
+   npm run start:dev
+```
+3. Abrir la documentación en Swagger:
+```
+   En el navegador del host
+   **http://localhost:3000/docs**
+```
+Para correr las pruebas unitarias:
+```bash
+npm test
+```
+
